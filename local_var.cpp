@@ -3,6 +3,7 @@ using namespace std;
 void func()
 {
     // local verible
+    // It can not accessed outside the func()
     int age = 18;
     cout << age;
 }
