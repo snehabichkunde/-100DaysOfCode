@@ -22,7 +22,7 @@ Complex complexSum(Complex o1, Complex o2)
 {
     Complex o3;
     o3.setData((o1.a+o2.a), (o1.b+o2.b));
-    o3.printNumber();
+
     return o3; 
 }
 
@@ -35,8 +35,10 @@ int main()
     c2.printNumber();
     c3.setData(5,6);
     c3.printNumber();
-    complexSum(c1,c2);
-    complexSum(c2,c3);
+    c1c2 = complexSum(c1,c2);
+    c2c3 = complexSum(c2,c3);
+    c1c2.printNumber();
+    c2c3.printNumber();
     return 0;
 }
 
